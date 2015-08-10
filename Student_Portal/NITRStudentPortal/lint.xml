@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle">
+        <ignore path="res/layout/welcome.xml" />
+    </issue>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/button.xml" />
+        <ignore path="res/layout/welcome.xml" />
+    </issue>
+    <issue id="DisableBaselineAlignment">
+        <ignore path="res/layout/welcome.xml" />
+    </issue>
+    <issue id="HardcodedText" severity="ignore">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/button.xml" />
+        <ignore path="res/layout/welcome.xml" />
+    </issue>
+    <issue id="MissingPrefix" severity="ignore" />
+    <issue id="NestedWeights">
+        <ignore path="res/layout/welcome.xml" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/napster/nitrourkelastudentportal/MenuFragment.java" />
+    </issue>
+    <issue id="UnusedAttribute">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/welcome.xml" />
+    </issue>
+</lint>

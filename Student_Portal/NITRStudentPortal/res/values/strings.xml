@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NITR Student Portal</string>
+        <string name="action_settings">Settings</string>
+
+    <string-array name="menus">
+        <item >Home</item>
+        <item >Search</item>
+        <item >Go to The Website</item>
+        <item >Feedback</item>
+        <item >Contact Us</item>
+        <item >About the App</item>
+        <item >Exit</item>
+    </string-array>
+    
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+</resources>

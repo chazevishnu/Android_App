@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>        
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/linear1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#1A7ED0"
+	    android:orientation="vertical"
+	    android:weightSum="100">
+	
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="20dp"
+	        android:background="@drawable/loginbutton"
+	        android:fontFamily="comic"
+	        android:padding="15dp"
+	        android:text="Class Tests"
+	        android:textColor="#FFF"
+	        android:textStyle="bold"
+	        android:layout_weight="34.2"/>
+	    <Button
+	        android:id="@+id/button2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="20dp"
+	        android:background="@drawable/loginbutton"
+	        android:fontFamily="comic"
+	        android:padding="15dp"
+	        android:text="Mid Semester Exams"
+	        android:textColor="#FFF"
+	        android:textStyle="bold"
+	        android:layout_weight="34.2" />
+	    <Button
+	        android:id="@+id/button3"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="20dp"
+	        android:background="@drawable/loginbutton"
+	        android:fontFamily="comic"
+	        android:padding="15dp"
+	        android:text="End Semester Exams"
+	        android:textColor="#FFF"
+	        android:textStyle="bold"
+	        android:layout_weight="34.2"/>
+	</LinearLayout>

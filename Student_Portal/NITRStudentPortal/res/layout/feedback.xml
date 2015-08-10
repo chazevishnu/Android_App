@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A7ED0"
+    android:orientation="vertical"
+    tools:context="com.napster.nitrourkelastudentportal.MainActivity" >
+    
+    <TextView 
+	        android:id="@+id/head"
+	        android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+	        android:fontFamily="sans-serif-thin"
+	        android:gravity="center"
+			android:textSize="40sp"
+	        android:text="Feedback"
+			android:textColor="#ffffff"/>
+    
+    <EditText 
+        android:id="@+id/EditText1"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+		android:padding="10dp"
+		android:lines="7" 
+		android:gravity="top|left" 
+		android:inputType="textMultiLine"
+		android:scrollHorizontally="false"
+		android:background="#ffffff"
+		android:hint="Write your feedback" />
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/loginbutton"
+        android:fontFamily="comic"
+        android:padding="15dp"
+        android:text="Submit"
+        android:textColor="#FFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

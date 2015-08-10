@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.napster.nitrourkelastudentportal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".welcome" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".profile" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".gesture" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".search" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".classtest" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".midsemester" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".endsemester" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".notice" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".examination" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".registration" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".attendence" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".feedback" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".contact" android:label="@string/app_name">
+        </activity>
+        <activity android:name=".about" android:label="@string/app_name">
+        </activity>
+    </application>
+
+</manifest>

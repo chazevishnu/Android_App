@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/scrollView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="#1A7ED0">
+	        
+	<LinearLayout
+	    android:id="@+id/linear1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#1A7ED0"
+	    android:orientation="vertical"
+	    android:weightSum="100">
+	    
+	    <TextView 
+	        android:id="@+id/head"
+	        android:layout_width="match_parent"
+			android:layout_height="match_parent"
+	        android:fontFamily="sans-serif-thin"
+	        android:gravity="center"
+			android:textSize="40sp"
+	        android:text="Search"
+			android:textColor="#ffffff"/>
+	    
+	    <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="10dp"
+	        android:background="@drawable/passwordtextboxbackground"
+	        android:drawableLeft="@drawable/find"
+	        android:maxLines="1"
+	        android:ems="10"
+	        android:hint="  Search for the People"
+	        android:inputType="text"
+	        android:padding="14dp" />
+	
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="10dp"
+	        android:background="@drawable/loginbutton"
+	        android:fontFamily="comic"
+	        android:padding="15dp"
+	        android:text="Search"
+	        android:textColor="#FFF"
+	        android:textStyle="bold" />
+	    
+	    <LinearLayout
+	    android:id="@+id/linear2"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#1A7ED0"
+	    android:orientation="vertical"
+	    android:weightSum="100">
+	    
+	    </LinearLayout>
+	    
+	</LinearLayout>
+</ScrollView>
